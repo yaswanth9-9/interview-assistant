@@ -13,3 +13,21 @@ This project is an AI-powered assistant that generates interview questions and m
 2. Install dependencies:
 ```bash
 pip install -r requirements.txt
+
+## Create & Activate a Virtual Environment
+```bash
+# Windows
+python -m venv venv
+venv\Scripts\activate
+
+# macOS/Linux
+python3 -m venv venv
+source venv/bin/activate
+
+## install Required Libraries
+```bash
+pip install streamlit openai
+
+## Run the Streamlit App
+```bash
+streamlit run app.py
